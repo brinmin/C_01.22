@@ -54,6 +54,13 @@ int main()
     }
     printf("\n");
 
+    for (int i = 0;; i++)
+    {
+        if (i >= 10)
+            break;  // 현제 반복문을 즉시 탈출시킴
+        printf("%d", i);
+    }
+
 
 
 
